@@ -3,21 +3,23 @@ body {
     margin: 0 10%;
     font-family: sans-serif;
     }
-  
-  h1 {
+  header {
+    background-color: #9abcf8;
+    color: white;
+  }
+h1 {
 font-size: 2rem;
-  }
+}
 
-  {font-size: 1.5rem;
+{font-size: 1.5rem;
 
-  }
+}
 
-  h3 {font-size: 1.25rem;
+h3 {font-size: 1.25rem;
 
-  }
-  . circle {
-    border-radius: 50%;
-    border: 5px solid #9abcf8;
-  }
+}
+. circle {
+border-radius: 50%;
+border: 5px solid #9abcf8;
+}
 
-  
