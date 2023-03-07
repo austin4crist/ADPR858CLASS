@@ -42,6 +42,10 @@ border: 5px solid #9abcf8;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(12, 1fr);
-  
+
 }
 
+.container > * {
+  grid-column: span 12;
+  
+}
