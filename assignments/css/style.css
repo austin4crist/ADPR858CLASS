@@ -19,31 +19,31 @@ body {
     padding: 2rem;
   }
 h1 {
-font-size: 2rem;
+  font-size: 2rem;
 }
 
-{font-size: 1.5rem;
-
+h2 {
+  font-size: 1.5rem;
 }
 
-h3 {font-size: 1.25rem;
-
+h3 {
+  font-size: 1.25rem;
 }
+
 .circle {
-border-radius: 50%;
-border: 5px solid #9abcf8;
+  border-radius: 50%;
+  border: 5px solid #9abcf8;
 }
 
 /************* Layout ********/
-}
 .container {
   background-color: white;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(12, 1fr);
   margin: 0 auto;
-  width: min (95%, 75rem);
-  
+  width: min(95%, 75rem);
+
 
 }
 
@@ -53,11 +53,12 @@ border: 5px solid #9abcf8;
 }
 /* Desktop Layout */
 @media screen and (min-width: 40rem) {
-col-span-8 {
-  grid-column: span 8;
+    .col-span-8 {
+      grid-column: span 8;
 
-}
-col-span-4 {
-  grid-column: span 4;
-  
+    }
+    .col-span-4 {
+      grid-column: span 4;
+      
+    }
 }
