@@ -47,5 +47,15 @@ border: 5px solid #9abcf8;
 
 .container > * {
   grid-column: span 12;
+
+}
+/* Desktop Layout */
+@media screen and (min-width: 40rem) {
+col-span-8 {
+  grid-column: span 8;
+
+}
+col-span-4 {
+  grid-column: span 4;
   
 }
