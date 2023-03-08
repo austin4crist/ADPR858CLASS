@@ -42,7 +42,7 @@ a:link, a:visited {
 a:hover {
   color:#4469a9;
   text-decoration: underline;
-
+}
 
 
 /************* Layout ********/
@@ -89,7 +89,7 @@ transition: background-color 0.5s ease;
 
 
 }
-.botton:hover {
+.button:hover {
   background-color: #163a77;
 }
 
