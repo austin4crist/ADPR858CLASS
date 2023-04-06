@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
-    --highlight_color: #F5BA36;
+    
   }
   body {
       background-color: white;
@@ -53,12 +53,27 @@ header {
     background-image: url(../images/ArrowImage4.jpg);
     background-size: cover;
     background-position: center;
+    padding: 2rem;
   }
   .hero_bg2 {
     background-image: url(../images/Capitol.jpg);
     background-size: cover;
     background-position: center;
+    padding: 4rem;
 
+  }
+  .hero_bg3 {
+    background-image: url(../images/fall.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 6rem;
+  }
+
+  .hero_bg4 {
+    background-image: url(../images/ArrowImage1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
   }
   
   /************* Layout ********/
@@ -84,9 +99,14 @@ header {
   .container_lg > *
    {
     grid-column: span 12;
-  
   }
   
+  .blockquote {
+    color:#163a77
+    border-left 5px
+  }
+  
+
   
   /************* Navigation Using Flexbox ********/
   nav {
