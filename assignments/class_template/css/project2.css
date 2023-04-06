@@ -18,6 +18,15 @@ header {
       color: white;
       padding: 1rem;
     }
+
+
+    nav {
+      padding: 0 1rem;
+      display: flex;
+      justify-content: right;
+    }
+
+
   h1 {
     font-size: 2rem;
   }
