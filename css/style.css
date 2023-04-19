@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: white;
+  margin: 0;
+  background-image: url("../images/background.avif");
+}
+.container {
+  background-color: black;
+}
+
+header {
+  color: black;
+  padding: 1rem;
+}
+
+nav {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: right;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+img {
+  max-width: 100%;
+}
+
+a:link,
+a:visited {
+  color: goldenrod;
+  text-decoration: none;
+}
+a:hover {
+  color: goldenrod;
+}
+
+.black {
+  background-color: black;
+}
+.container_lg1 {
+  background-image: url(../images/herobg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+}
+
+.main_intro h1 {
+  font-size: 96px line height 106px;
+}
+.image black.jpg {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.container_lg3 {
+  background-image: url(../images/radiobg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+}
+.container_lg2 {
+  background-image: url(../images/);
+  background-size: cover;
+  background-position: center;
+  padding: 6rem;
+}
+
+.hero_bg4 {
+  background-image: url(../images/ArrowImage1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+/************* Layout ********/
+.container {
+  background-color: white;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  width: min(95%, 75rem);
+}
+
+.container_lg {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+}
+
+.container > *,
+.container_lg > * {
+  grid-column: span 12;
+}
+
+.blockquote {
+  color: #163a77 border-left 5px;
+}
+
+/************* Navigation Using Flexbox ********/
+nav {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+nav li {
+  margin: 0 0.5rem;
+}
+nav a:link,
+nav a:visited {
+  color: goldenrod;
+  text-decoration: none;
+  font-size: 1.125;
+  padding: 1rem;
+  display: block;
+  transition: ease-in-out 250ms;
+}
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+/************* Components ********/
+.button:link,
+.button:visited {
+  color: goldenrod;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem 1.75rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.125rem 0.5rem rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  margin: 0.25rem 0.25rem 0;
+  transition: background-color 0.5s ease;
+}
+.button:hover {
+  background-color: #163a77;
+}
+
+.card {
+  text-align: center;
+  margin: 1rem;
+  padding-bottom: 2rem;
+  box-shadow: 0.125rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+.card-title {
+  margin: 0.75rem 0 0 0;
+  padding: 0 2rem 0.5rem;
+}
+.card-text {
+  margin: 0.5rem 0 1rem 0;
+  padding: 0 2rem 0.5rem;
+}
+.services-section {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.card {
+  flex-basis: 27.5%;
+}
+
+/* Desktop Layout */
+@media screen and (min-width: 40rem) {
+  .col-span-2 {
+    grid-column: span 2;
+  }
+
+  .col-span-3 {
+    grid-column: span 3;
+  }
+
+  .col-span-4 {
+    grid-column: span 4;
+  }
+
+  .col-span-5 {
+    grid-column: span 5;
+  }
+
+  .col-span-6 {
+    grid-column: span 6;
+  }
+
+  .col-span-7 {
+    grid-column: span 7;
+  }
+
+  .col-span-8 {
+    grid-column: span 8;
+  }
+
+  .col-span-9 {
+    grid-column: span 9;
+  }
+  .col-span-10 {
+    grid-column: span 10;
+  }
+
+  .services-section {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  .card {
+    flex-basis: 27.5%;
+  }
+}
