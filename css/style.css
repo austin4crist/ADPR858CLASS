@@ -129,6 +129,11 @@ nav ul {
   display: flex;
   flex-flow: row wrap;
 }
+
+nav li {
+  text-align: right 1;
+}
+
 nav li {
   margin: 0 0.5rem;
 }
