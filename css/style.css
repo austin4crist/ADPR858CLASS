@@ -49,7 +49,7 @@ a:hover {
 .black {
   background-color: black;
 }
-.container_lg1 {
+.hero_bg {
   background-image: url(../images/herobg.jpg);
   background-size: cover;
   background-position: center;
@@ -173,7 +173,7 @@ nav a:hover {
   margin: 0.5rem 0 1rem 0;
   padding: 0 2rem 0.5rem;
 }
-.services-section {
+.card-section {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
