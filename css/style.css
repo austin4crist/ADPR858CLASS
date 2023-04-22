@@ -162,8 +162,8 @@ nav a:hover {
 /************* Components ********/
 .button:link,
 .button:visited {
-  color: goldenrod;
-  background-color: black;
+  color: white;
+  background-color: goldenrod;
   text-align: center;
   text-decoration: none;
   padding: 1rem 1.75rem;
