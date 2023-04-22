@@ -24,7 +24,7 @@ nav {
 
 .callout {
   padding: 4rem 0 2rem 0;
-  color: white;
+  color: goldenrod;
 }
 
 h1 {
@@ -71,8 +71,8 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.container_lg3 {
-  background-image: url(../images/radiobg.jpg);
+.container_lg {
+  background-image: url(../images/);
   background-size: cover;
   background-position: center;
   padding: 4rem;
@@ -84,8 +84,16 @@ a:hover {
   padding: 6rem;
 }
 
+.hero_bg1 {
+  background-image: url(../images/plain2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+  color: white;
+}
+
 .hero_bg4 {
-  background-image: url(../images/ArrowImage1.jpg);
+  background-image: url(../images/austine.jpg);
   background-size: cover;
   background-position: center;
   padding: 2rem;
