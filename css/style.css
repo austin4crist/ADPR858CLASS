@@ -13,7 +13,7 @@ body {
 
 header {
   color: black;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 nav {
@@ -55,20 +55,10 @@ a:hover {
   background-color: black;
 }
 .hero_bg {
-  background-image: url(../images/austine.jpg);
+  background-image: url(../images/);
   background-size: cover;
   background-position: center;
   padding: 4rem;
-}
-
-.main_intro h1 {
-  font-size: 96px line height 106px;
-}
-.image black.jpg {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  margin-bottom: 20px;
 }
 
 .container_lg {
@@ -92,11 +82,20 @@ a:hover {
   color: white;
 }
 
+.hero_bg2 {
+  background-image: url(../images/event.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+  color: white;
+}
+
 .hero_bg4 {
   background-image: url(../images/austine.jpg);
   background-size: cover;
   background-position: center;
   padding: 2rem;
+  line-height: 2;
 }
 
 /************* Layout ********/
