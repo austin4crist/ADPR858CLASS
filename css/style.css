@@ -24,6 +24,7 @@ nav {
 
 .callout {
   padding: 4rem 0 2rem 0;
+  color: white;
 }
 
 h1 {
@@ -54,7 +55,7 @@ a:hover {
   background-color: black;
 }
 .hero_bg {
-  background-image: url(../images/herobg.jpg);
+  background-image: url(../images/austine.jpg);
   background-size: cover;
   background-position: center;
   padding: 4rem;
