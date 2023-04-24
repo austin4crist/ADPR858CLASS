@@ -54,6 +54,7 @@ a:hover {
 .black {
   background-color: black;
 }
+
 .hero_bg {
   background-image: url(../images/);
   background-size: cover;
@@ -91,9 +92,8 @@ a:hover {
 }
 
 .hero_bg4 {
-  background-image: url(../images/austine.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: none;
+  background-color: lightgray;
   padding: 2rem;
   line-height: 2;
 }
@@ -199,6 +199,10 @@ nav a:hover {
   flex-basis: 27.5%;
 }
 
+.normal_padding {
+  padding: 1rem;
+}
+
 /* Desktop Layout */
 @media screen and (min-width: 40rem) {
   .col-span-2 {
@@ -234,6 +238,14 @@ nav a:hover {
   }
   .col-span-10 {
     grid-column: span 10;
+  }
+
+  .hero_bg4 {
+    background-image: url(../images/austine.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    line-height: 2;
   }
 
   .services-section {
