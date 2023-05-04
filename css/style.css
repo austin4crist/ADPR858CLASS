@@ -121,14 +121,15 @@ a:hover {
 }
 
 .blockquote {
-  color: #163a77 border-left 5px;
+  color: #163a77;
+  border-left: 5px;
 }
 
 /************* Navigation Using Flexbox ********/
 nav {
   padding: 0 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 nav ul {
   margin: 0;
@@ -139,7 +140,7 @@ nav ul {
 }
 
 nav li {
-  text-align: right 1;
+  text-align: right;
 }
 
 nav li {
@@ -149,7 +150,7 @@ nav a:link,
 nav a:visited {
   color: goldenrod;
   text-decoration: none;
-  font-size: 1.125;
+  font-size: 1.125rem;
   padding: 1rem;
   display: block;
   transition: ease-in-out 250ms;
