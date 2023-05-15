@@ -24,7 +24,7 @@ nav {
 
 .callout {
   padding: 4rem 0 2rem 0;
-  color: goldenrod;
+  color: #e6c068;
 }
 
 h1 {
@@ -44,11 +44,11 @@ img {
 
 a:link,
 a:visited {
-  color: goldenrod;
+  color: #e6c068;
   text-decoration: none;
 }
 a:hover {
-  color: goldenrod;
+  color: #e6c068;
 }
 
 .black {
@@ -148,7 +148,7 @@ nav li {
 }
 nav a:link,
 nav a:visited {
-  color: goldenrod;
+  color: #e6c068;
   text-decoration: none;
   font-size: 1.125rem;
   padding: 1rem;
@@ -163,7 +163,7 @@ nav a:hover {
 .button:link,
 .button:visited {
   color: white;
-  background-color: goldenrod;
+  background-color: #e6c068;
   text-align: center;
   text-decoration: none;
   padding: 1rem 1.75rem;
