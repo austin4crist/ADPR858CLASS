@@ -81,6 +81,7 @@ a:hover {
   background-position: center;
   padding: 4rem;
   color: white;
+  line-height: 2;
 }
 
 .hero_bg2 {
